@@ -36,6 +36,59 @@ nav a{
 .logo img{
     width: 75px;
 }
+nav a:hover{
+    color: #38bdf8;
+}
+main{
+    padding: 21px;
+}
+section h2{
+    color: #4caf50;
+    border-color: 2px solid #4caf50;
+    padding-bottom: 5px;
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.produto{
+    background-color: white;
+    padding: 18px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba();
+}
+.produto img{
+    width: 350px;
+    border-radius: 4px;
+}
+.produto h4{
+    margin: 10px 0 6px;
+    font-size: 19px;
+}
+.produto p{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #007e00;
+}
+#preco{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
 
 
 
