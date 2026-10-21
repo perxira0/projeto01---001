@@ -43,8 +43,8 @@ main{
     padding: 21px;
 }
 section h2{
-    color: #4caf50;
-    border-color: 2px solid #4caf50;
+    color: rgba(20, 92, 160, 0.925);
+    border-color: 2px solid rgba(240, 248, 255, 0.925);
     padding-bottom: 5px;
 }
 .produtos{
@@ -59,7 +59,7 @@ section h2{
     background-color: white;
     padding: 18px;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba();
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 .produto img{
     width: 350px;
@@ -73,13 +73,42 @@ section h2{
     font-weight: bold;
     font-size: 15px;
     margin-top: 10px;
-    color: #007e00;
+    color: rgb(0, 38, 254);
 }
 #preco{
     font-size: 14px;
     color: black;
     font-weight: bold;
 }
+.rodape{
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* responsividade home */
+@media(max-width : 600px){
+    header{
+        padding: 15px;
+    }
+    nav a{
+        display: inline-block;
+        margin: 8px;
+        gap: 15px;
+    }
+    main{
+        padding: 15px;
+    }
+    .produto{
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+
+
+
+
 
 
 
